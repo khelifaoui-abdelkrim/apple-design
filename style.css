@@ -740,6 +740,9 @@ html{
     height: 70%;
     border: none;
   }
+  .nav-link:hover{
+    transform: none;
+  }
   .section3-info h2{
     font-size: 6rem;
   }
@@ -757,6 +760,11 @@ html{
   }
   .section4-h{
     right: 3rem;
+  }
+  .buy-btn{
+    clip-path: none;
+    border: none;
+    border-radius: 5rem;
   }
 }
 @media(max-width:700px){
@@ -870,6 +878,14 @@ html{
   }
   .section4-h{
     font-size: 6rem;
+  }
+}
+@media(max-width:450px){
+  .section4-p{
+    font-size: 3.5rem;
+  }
+  .section4-h{
+    font-size: 5rem;
   }
 }
  /* end of media query */
