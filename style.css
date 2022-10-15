@@ -888,10 +888,11 @@ html{
 }
 @media(max-width:450px){
   .section4-p{
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .section4-h{
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
+
  /* end of media query */
