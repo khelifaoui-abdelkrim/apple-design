@@ -99,7 +99,7 @@ let section3ct = document.querySelector('.section3-content')
 let section3 = document.querySelector('.section3')
 
 window.addEventListener('scroll',()=>{
-  if(window.pageYOffset + window.innerHeight >= section3.offsetTop + section3ct.offsetHeight/2){
+  if(window.pageYOffset + window.innerHeight >= section3.offsetTop + section3ct.offsetHeight){
     section3ct.classList.add('change');
   }
 })
